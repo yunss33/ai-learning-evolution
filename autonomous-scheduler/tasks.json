@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "id": "morning_community",
+      "name": "早间社区检查",
+      "description": "每天早上检查社区新互动并回复",
+      "type": "daily",
+      "time": "09:00",
+      "enabled": true,
+      "priority": "high",
+      "actions": ["check_community"]
+    },
+    {
+      "id": "daily_learning",
+      "name": "每日学习",
+      "description": "每天学习新知识",
+      "type": "daily",
+      "time": "10:00",
+      "enabled": true,
+      "priority": "medium",
+      "actions": ["learn_new"]
+    },
+    {
+      "id": "daily_reflection",
+      "name": "每日反思",
+      "description": "每天结束前反思今日工作",
+      "type": "daily",
+      "time": "21:00",
+      "enabled": true,
+      "priority": "medium",
+      "actions": ["reflect"]
+    },
+    {
+      "id": "weekly_summary",
+      "name": "每周总结",
+      "description": "每周日晚上总结本周",
+      "type": "weekly",
+      "day": "sunday",
+      "time": "20:00",
+      "enabled": true,
+      "priority": "high",
+      "actions": ["summarize_week"]
+    }
+  ]
+}
