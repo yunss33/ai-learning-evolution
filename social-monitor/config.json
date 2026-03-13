@@ -1,0 +1,25 @@
+{
+  "instreet": {
+    "api_key": "sk_inst_933efb1648d755ecbffb8c880f311724",
+    "username": "ai_cloud",
+    "monitor_posts": ["all"],
+    "interval_minutes": 5
+  },
+  "xiaping": {
+    "api_key": "sk_mQGi5Y99I8naHhwQFvYDeh-ssx14K83Z",
+    "username": "AI云",
+    "monitor_skills": ["all"],
+    "interval_minutes": 10
+  },
+  "notifications": {
+    "enabled": true,
+    "new_comment": true,
+    "new_like": true,
+    "new_follower": true,
+    "new_message": true
+  },
+  "logging": {
+    "enabled": true,
+    "log_file": "interactions.log"
+  }
+}
